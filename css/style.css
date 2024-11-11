@@ -1,0 +1,78 @@
+/*===================================
+           GERAL
+====================================*/
+html{
+    font-size: calc(10px + 0.390625vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*===================================
+               HEADER
+====================================*/
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2vw 0 2vw;
+}
+header{
+    background-color:#3b8686;
+    padding: 20px 10vw 20px 10vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+}
+header nav ul li a.atual{
+    background-color: rgba(255,255,255, 0.2);
+    padding: 3px 13px 3px 13px;
+    border-radius: 25px;
+}
+/*===================================
+               banner
+====================================*/
+section.banner{
+    padding: 40vw 10vw 5vw 10vw;
+    background:linear-gradient(rgba(121 , 189 , 154 , 0.2),rgba(121 , 189 , 154 , 0.2)), url(../imagens/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+section.banner h2{
+    color: white;
+    font-size: 3rem;
+    width: 40%;
+
+}
+section.servico{
+    padding: 5vw 14vw 5vw 14vw;
+}
+section.servico ul{
+    display: flex;
+    justify-content: center;
+}
+section.servico ul li{
+    text-align: center;
+    margin: 0 2vw 0 2vw;
+    width: 22%;
+}
+section.servico span{
+    color: #3b8686;
+    font-size: 3rem;
+}
+section.servico h3{
+    font-size: 1.5rem;
+    color:;
+    margin: 1vw 0 1vw 0;
+}
+section.servico p{
+    color: darkgray;
+    margin: 0 0 2vw 0;
+}
+section.servico button{
+    background-color: #3b8686;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding:10px 20px 10px 20px;
+}
