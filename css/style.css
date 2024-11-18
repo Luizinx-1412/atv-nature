@@ -62,7 +62,6 @@ section.servico span{
 }
 section.servico h3{
     font-size: 1.5rem;
-    color:;
     margin: 1vw 0 1vw 0;
 }
 section.servico p{
@@ -76,3 +75,19 @@ section.servico button{
     font-size: 1.2rem;
     padding:10px 20px 10px 20px;
 }
+/*===================================
+               imagem
+====================================*/
+section.imagem{
+padding: 7vw 0 1vw 0;
+background:linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url(../imagens/back-numeros\(1\).png) no-repeat center center;
+background-size: cover;
+color: white;
+text-align: center;
+}
+section.imagem ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 2vw 12vw 2vw 12vw;
+    font-size: 2.5rem;
